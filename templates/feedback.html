@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}Give feedback{% endblock %}
+
+{% block content %}
+  <h1>Send us feedback</h1>
+  <p>Please fill out the form below — we appreciate your input.</p>
+
+  <form method="post" action="{{ url_for('feedback') }}">
+    <label for="username">Name</label>
+    <input type="text" id="username" name="username" placeholder="Your name (optional)">
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="Write your feedback here..." rows="7"></textarea>
+
+    <div class="actions">
+      <button type="submit">Send feedback</button>
+    </div>
+  </form>
+{% endblock %}
