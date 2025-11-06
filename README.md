@@ -1,0 +1,2 @@
+# 💬 Flask Feedback App  
+A simple and minimal **Flask web app** that lets users submit feedback through a clean form and displays a thank-you message upon submission. 🚀 Built with Flask and HTML templates (`base.html`, `feedback.html`, and `thankyou.html`), it’s easy to set up—just create a virtual environment, install dependencies using `pip install -r requirements.txt`, and run `python app.py` to launch the app locally at **http://127.0.0.1:5000/**. 💻
